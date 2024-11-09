@@ -1,0 +1,27 @@
+
+
+
+
+body{
+   font-family:sans-serif ;
+   background-color: hsl(325, 100%, 27%); 
+}
+
+.tittlebar{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 3px;
+    justify-content: space-around;
+}
+.container div{
+    text-align: centre;
+    width: 200px;
+    color:whitesmoke;
+    margin: 10px;
+    flex-basis: 20%; 
+}
